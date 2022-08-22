@@ -122,7 +122,7 @@ module.exports = {
         'no-use-before-define': 0, // disabled temporarily
         'padded-blocks': 0,
         'prefer-arrow-callback': 0,
-        'prefer-destructuring': ['error', { object: true, array: false }],
+        'prefer-destructuring': ['error', { object: false, array: false }],
         'react/destructuring-assignment': 0, // re-enable up for discussion
         'react/forbid-prop-types': 0,
         'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],
@@ -253,7 +253,7 @@ module.exports = {
     'padded-blocks': 0,
     'prefer-arrow-callback': 0,
     'prefer-object-spread': 1,
-    'prefer-destructuring': ['error', { object: true, array: false }],
+    'prefer-destructuring': ['error', { object: false, array: false }],
     'react/destructuring-assignment': 0, // re-enable up for discussion
     'react/forbid-prop-types': 0,
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.tsx'] }],

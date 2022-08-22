@@ -240,6 +240,7 @@ export default function DataTable<D extends object>({
                 key={rowKey || row.id}
                 {...rowProps}
                 onClick={() => {
+                  /* eslint-disable no-unused-expressions */
                   rowClick ? rowClick(row.original) : null;
                 }}
               >
