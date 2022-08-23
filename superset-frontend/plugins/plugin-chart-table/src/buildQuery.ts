@@ -118,6 +118,7 @@ const buildQuery: BuildQuery<TableChartFormData> = (
     }
 
     if (formDataCopy.drillDown) {
+      /* eslint-disable no-param-reassign */
       baseQueryObject.filters = formDataCopy.filters;
     }
 
